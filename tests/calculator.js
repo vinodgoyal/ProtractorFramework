@@ -22,7 +22,7 @@ describe('Calculator Demo', function () {
         homepage.enterSecondNumber('8');
         homepage.clickGo2();
         homepage.verifyResult('3')
-        browser.sleep(2000);
+        browser.sleep(3000);
     })
 
 })
